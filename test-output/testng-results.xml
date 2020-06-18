@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="62" passed="59">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56035" started-at="2020-06-19T00:37:17 ICT" finished-at="2020-06-19T00:38:13 ICT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56035" started-at="2020-06-19T00:37:17 ICT" finished-at="2020-06-19T00:38:13 ICT">
+      <class name="com.vn.VNDirect.RegisterTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="setUp" is-config="true" duration-ms="4687" started-at="2020-06-19T00:37:17 ICT" finished-at="2020-06-19T00:37:21 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="295" started-at="2020-06-19T00:37:21 ICT" finished-at="2020-06-19T00:37:22 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test02()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test02" duration-ms="829" started-at="2020-06-19T00:37:22 ICT" description="Bỏ trống họ và tên" finished-at="2020-06-19T00:37:22 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="320" started-at="2020-06-19T00:37:22 ICT" finished-at="2020-06-19T00:37:23 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test03()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test03" duration-ms="710" started-at="2020-06-19T00:37:23 ICT" description="Bỏ trống họ và tên, số điện thoại" finished-at="2020-06-19T00:37:23 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="351" started-at="2020-06-19T00:37:23 ICT" finished-at="2020-06-19T00:37:24 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test04()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test04" duration-ms="500" started-at="2020-06-19T00:37:24 ICT" description="Bỏ trống họ và tên, số điện thoại, email" finished-at="2020-06-19T00:37:24 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="227" started-at="2020-06-19T00:37:24 ICT" finished-at="2020-06-19T00:37:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test05()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test05" duration-ms="330" started-at="2020-06-19T00:37:25 ICT" description="Bỏ trống họ và tên, số điện thoại, email, tên đăng nhập" finished-at="2020-06-19T00:37:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test05 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="189" started-at="2020-06-19T00:37:25 ICT" finished-at="2020-06-19T00:37:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test06()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test06" duration-ms="200" started-at="2020-06-19T00:37:25 ICT" description="Bỏ trống họ và tên, số điện thoại, email, tên đăng nhập, mật khẩu" finished-at="2020-06-19T00:37:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="164" started-at="2020-06-19T00:37:25 ICT" finished-at="2020-06-19T00:37:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test07()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test07" duration-ms="152" started-at="2020-06-19T00:37:25 ICT" description="Bỏ trống họ và tên, số điện thoại, email, tên đăng nhập, mật khẩu, xác nhận mật khẩu" finished-at="2020-06-19T00:37:26 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test07 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="153" started-at="2020-06-19T00:37:26 ICT" finished-at="2020-06-19T00:37:26 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test08()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test08" duration-ms="279" started-at="2020-06-19T00:37:26 ICT" description="Bỏ trống điện thoại,email, tên đăng nhập, mật khẩu, xác nhận mật khẩu" finished-at="2020-06-19T00:37:26 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test08 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="152" started-at="2020-06-19T00:37:26 ICT" finished-at="2020-06-19T00:37:26 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test09()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test09" duration-ms="344" started-at="2020-06-19T00:37:26 ICT" description="Bỏ trống email, tên đăng nhập, mật khẩu, xác nhận mật khẩu" finished-at="2020-06-19T00:37:26 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test09 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="180" started-at="2020-06-19T00:37:26 ICT" finished-at="2020-06-19T00:37:27 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test10()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test10" duration-ms="465" started-at="2020-06-19T00:37:27 ICT" description="Bỏ trống tên đăng nhập, mật khẩu, xác nhận mật khẩu" finished-at="2020-06-19T00:37:27 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="203" started-at="2020-06-19T00:37:27 ICT" finished-at="2020-06-19T00:37:27 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test11()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test11" duration-ms="579" started-at="2020-06-19T00:37:27 ICT" description="Bỏ trống mật khẩu, xác nhận mật khẩu" finished-at="2020-06-19T00:37:28 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="261" started-at="2020-06-19T00:37:28 ICT" finished-at="2020-06-19T00:37:28 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test12()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test12" duration-ms="658" started-at="2020-06-19T00:37:28 ICT" description="Bỏ trống  xác nhận mật khẩu" finished-at="2020-06-19T00:37:29 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test12 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="335" started-at="2020-06-19T00:37:29 ICT" finished-at="2020-06-19T00:37:29 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test13()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test13" duration-ms="710" started-at="2020-06-19T00:37:29 ICT" description="Mật khẩu không trùng nhau" finished-at="2020-06-19T00:37:30 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test13 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="279" started-at="2020-06-19T00:37:30 ICT" finished-at="2020-06-19T00:37:30 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test14()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test14" duration-ms="1040" started-at="2020-06-19T00:37:30 ICT" description="Mật khẩu phải có tối thiểu 8 ký tự và tối đa 32 ký tự(quá 32), Xác nhận mật khẩu trống" finished-at="2020-06-19T00:37:31 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test14 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="238" started-at="2020-06-19T00:37:31 ICT" finished-at="2020-06-19T00:37:31 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test15()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test15" duration-ms="1022" started-at="2020-06-19T00:37:31 ICT" description="Mật khẩu phải có tối thiểu 8 ký tự và tối đa 32 ký tự(quá 32), Mật khẩu không trùng nhau" finished-at="2020-06-19T00:37:32 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test15 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="248" started-at="2020-06-19T00:37:32 ICT" finished-at="2020-06-19T00:37:33 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test16()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test16" duration-ms="851" started-at="2020-06-19T00:37:33 ICT" description="Mật khẩu phải có tối thiểu 8 ký tự và tối đa 32 ký tự(nhỏ hơn 8), Xác nhận mật khẩu trống" finished-at="2020-06-19T00:37:34 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test16 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="594" started-at="2020-06-19T00:37:34 ICT" finished-at="2020-06-19T00:37:34 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test17()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test17" duration-ms="946" started-at="2020-06-19T00:37:34 ICT" description="Mật khẩu phải có tối thiểu 8 ký tự và tối đa 32 ký tự(nhỏ hơn 8), Mật khẩu không trùng nhau" finished-at="2020-06-19T00:37:35 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test17 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="254" started-at="2020-06-19T00:37:35 ICT" finished-at="2020-06-19T00:37:35 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test18()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test18" duration-ms="753" started-at="2020-06-19T00:37:35 ICT" description="Sai định dạng sđt(9 số)" finished-at="2020-06-19T00:37:36 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test18 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="259" started-at="2020-06-19T00:37:36 ICT" finished-at="2020-06-19T00:37:36 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test20()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test20" duration-ms="636" started-at="2020-06-19T00:37:36 ICT" description="Sai định dạng sđt(9 số), để trống họ và tên" finished-at="2020-06-19T00:37:37 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test20 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="260" started-at="2020-06-19T00:37:37 ICT" finished-at="2020-06-19T00:37:37 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test22()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test22" duration-ms="558" started-at="2020-06-19T00:37:37 ICT" description="Sai định dạng sđt(9 số), để trống họ và tên và tên đăng nhập" finished-at="2020-06-19T00:37:38 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test22 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="214" started-at="2020-06-19T00:37:38 ICT" finished-at="2020-06-19T00:37:38 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test24()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test24" duration-ms="454" started-at="2020-06-19T00:37:38 ICT" description="Sai định dạng sđt(9 số), để trống họ và tên và tên đăng nhập và email" finished-at="2020-06-19T00:37:39 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test24 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="180" started-at="2020-06-19T00:37:39 ICT" finished-at="2020-06-19T00:37:39 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test27()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test27" duration-ms="292" started-at="2020-06-19T00:37:39 ICT" description="Sai định dạng sđt(9 số), để trống họ và tên và tên đăng nhập và email và mật khẩu" finished-at="2020-06-19T00:37:39 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test27 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="170" started-at="2020-06-19T00:37:39 ICT" finished-at="2020-06-19T00:37:39 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test29()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test29" duration-ms="224" started-at="2020-06-19T00:37:39 ICT" description="Sai định dạng sđt(9 số), để trống họ và tên và tên đăng nhập và email và mật khẩu và xác nhận mật khẩu" finished-at="2020-06-19T00:37:39 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test29 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="164" started-at="2020-06-19T00:37:39 ICT" finished-at="2020-06-19T00:37:40 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test31()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test31" duration-ms="439" started-at="2020-06-19T00:37:40 ICT" description="Sai định dạng sđt(9 số), để trống họ và tên và tên đăng nhập và email, Mật khẩu không khớp" finished-at="2020-06-19T00:37:40 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test31 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="191" started-at="2020-06-19T00:37:40 ICT" finished-at="2020-06-19T00:37:40 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test32()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test32" duration-ms="743" started-at="2020-06-19T00:37:40 ICT" description="Email sai định dạng" finished-at="2020-06-19T00:37:41 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test32 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="274" started-at="2020-06-19T00:37:41 ICT" finished-at="2020-06-19T00:37:41 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test33()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test33" duration-ms="612" started-at="2020-06-19T00:37:41 ICT" description="Email sai định dạng, bỏ trống họ tên" finished-at="2020-06-19T00:37:42 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test33 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="213" started-at="2020-06-19T00:37:42 ICT" finished-at="2020-06-19T00:37:42 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test34()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test34" duration-ms="519" started-at="2020-06-19T00:37:42 ICT" description="Email sai định dạng, bỏ trống họ tên và số đt" finished-at="2020-06-19T00:37:43 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test34 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="203" started-at="2020-06-19T00:37:43 ICT" finished-at="2020-06-19T00:37:43 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test35()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test35" duration-ms="483" started-at="2020-06-19T00:37:43 ICT" description="Email sai định dạng, bỏ trống họ tên và số đt và tên đăng nhập" finished-at="2020-06-19T00:37:43 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test35 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="170" started-at="2020-06-19T00:37:43 ICT" finished-at="2020-06-19T00:37:43 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="test36()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test36" duration-ms="344" started-at="2020-06-19T00:37:43 ICT" description="Email sai định dạng, bỏ trống họ tên và số đt và tên đăng nhập và mật khẩu, mật khẩu không trùng" finished-at="2020-06-19T00:37:44 ICT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[4]/div[2]/div/div/span"}
+  (Session info: chrome=83.0.4103.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1NR1TP6', ip: '192.168.1.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58594}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2d1ba351cf03b352865e7c952bb63f90
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[4]/div[2]/div/div/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[4]/div[2]/div/div/span"}
+  (Session info: chrome=83.0.4103.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1NR1TP6', ip: '192.168.1.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58594}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2d1ba351cf03b352865e7c952bb63f90
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[4]/div[2]/div/div/span}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.vn.VNDirect.RegisterTest.test36(RegisterTest.java:854)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test36 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="158" started-at="2020-06-19T00:37:44 ICT" finished-at="2020-06-19T00:37:44 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test37()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test37" duration-ms="380" started-at="2020-06-19T00:37:44 ICT" description="Email sai định dạng, bỏ trống họ tên và số đt và tên đăng nhập , mật khẩu không trùng" finished-at="2020-06-19T00:37:44 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test37 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="194" started-at="2020-06-19T00:37:44 ICT" finished-at="2020-06-19T00:37:44 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test38()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test38" duration-ms="852" started-at="2020-06-19T00:37:44 ICT" description="Tên đăng nhập 5 ký tư" finished-at="2020-06-19T00:37:45 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test38 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="258" started-at="2020-06-19T00:37:45 ICT" finished-at="2020-06-19T00:37:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test39()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test39" duration-ms="637" started-at="2020-06-19T00:37:46 ICT" description="Tên đăng nhập 5 ký tư, bỏ trống họ tên" finished-at="2020-06-19T00:37:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test39 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="262" started-at="2020-06-19T00:37:46 ICT" finished-at="2020-06-19T00:37:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test40()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test40" duration-ms="523" started-at="2020-06-19T00:37:46 ICT" description="Tên đăng nhập 5 ký tư, bỏ trống họ tên và sđt" finished-at="2020-06-19T00:37:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test40 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="206" started-at="2020-06-19T00:37:47 ICT" finished-at="2020-06-19T00:37:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test41()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test41" duration-ms="413" started-at="2020-06-19T00:37:47 ICT" description="Tên đăng nhập 5 ký tư, bỏ trống họ tên và sđt và email" finished-at="2020-06-19T00:37:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test41 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="173" started-at="2020-06-19T00:37:48 ICT" finished-at="2020-06-19T00:37:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test42()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test42" duration-ms="297" started-at="2020-06-19T00:37:48 ICT" description="Tên đăng nhập 5 ký tư, bỏ trống họ tên và sđt và email và mật khẩu" finished-at="2020-06-19T00:37:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test42 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="166" started-at="2020-06-19T00:37:48 ICT" finished-at="2020-06-19T00:37:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test43()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test43" duration-ms="180" started-at="2020-06-19T00:37:48 ICT" description="Tên đăng nhập 5 ký tư, bỏ trống họ tên và sđt và email và mật khẩu và xác nhận mật khẩu" finished-at="2020-06-19T00:37:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test43 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="142" started-at="2020-06-19T00:37:48 ICT" finished-at="2020-06-19T00:37:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test44()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test44" duration-ms="367" started-at="2020-06-19T00:37:49 ICT" description="Tên đăng nhập 5 ký tư, bỏ trống họ tên và email và mật khẩu và xác nhận mật khẩu" finished-at="2020-06-19T00:37:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test44 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="183" started-at="2020-06-19T00:37:49 ICT" finished-at="2020-06-19T00:37:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test45()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test45" duration-ms="515" started-at="2020-06-19T00:37:49 ICT" description="Tên đăng nhập 5 ký tư, bỏ trống mật khẩu và xác nhận mật khẩu" finished-at="2020-06-19T00:37:50 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test45 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="231" started-at="2020-06-19T00:37:50 ICT" finished-at="2020-06-19T00:37:50 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test46()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test46" duration-ms="743" started-at="2020-06-19T00:37:50 ICT" description="Tên đăng nhập 5 ký tư và xác nhận mật khẩu không khớp" finished-at="2020-06-19T00:37:51 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test46 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="324" started-at="2020-06-19T00:37:51 ICT" finished-at="2020-06-19T00:37:51 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test47()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test47" duration-ms="664" started-at="2020-06-19T00:37:51 ICT" description="Tên đăng nhập 5 ký tư và mật khẩu nhập 7 ký tự và xác nhận mật khẩu trống" finished-at="2020-06-19T00:37:52 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test47 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="229" started-at="2020-06-19T00:37:52 ICT" finished-at="2020-06-19T00:37:52 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test48()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test48" duration-ms="749" started-at="2020-06-19T00:37:52 ICT" description="Tên đăng nhập 5 ký tư và mật khẩu nhập 33 ký tự và xác nhận mật khẩu trống" finished-at="2020-06-19T00:37:53 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test48 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="232" started-at="2020-06-19T00:37:53 ICT" finished-at="2020-06-19T00:37:53 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test49()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test49" duration-ms="748" started-at="2020-06-19T00:37:53 ICT" description="Tên đăng nhập 5 ký tư và sđt 9 ký tự" finished-at="2020-06-19T00:37:54 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test49 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="228" started-at="2020-06-19T00:37:54 ICT" finished-at="2020-06-19T00:37:54 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test50()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test50" duration-ms="1544" started-at="2020-06-19T00:37:54 ICT" description="Tên đăng nhập 5 ký tư và email sai định dạng" finished-at="2020-06-19T00:37:55 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test50 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="293" started-at="2020-06-19T00:37:55 ICT" finished-at="2020-06-19T00:37:56 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="test51()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test51" duration-ms="752" started-at="2020-06-19T00:37:56 ICT" description="Email 11 ký tự" finished-at="2020-06-19T00:37:56 ICT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[2]/div/div/div/span"}
+  (Session info: chrome=83.0.4103.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1NR1TP6', ip: '192.168.1.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58594}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2d1ba351cf03b352865e7c952bb63f90
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[2]/div/div/div/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[2]/div/div/div/span"}
+  (Session info: chrome=83.0.4103.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1NR1TP6', ip: '192.168.1.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58594}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2d1ba351cf03b352865e7c952bb63f90
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[2]/div/div/div/span}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.vn.VNDirect.RegisterTest.test51(RegisterTest.java:1207)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test51 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="237" started-at="2020-06-19T00:37:56 ICT" finished-at="2020-06-19T00:37:57 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="test52()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test52" duration-ms="809" started-at="2020-06-19T00:37:57 ICT" description="Email 51 ký tự" finished-at="2020-06-19T00:37:57 ICT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[2]/div/div/div/span"}
+  (Session info: chrome=83.0.4103.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1NR1TP6', ip: '192.168.1.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58594}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2d1ba351cf03b352865e7c952bb63f90
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[2]/div/div/div/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[2]/div/div/div/span"}
+  (Session info: chrome=83.0.4103.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1NR1TP6', ip: '192.168.1.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58594}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2d1ba351cf03b352865e7c952bb63f90
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[2]/div/div/div/span}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.vn.VNDirect.RegisterTest.test52(RegisterTest.java:1229)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test52 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="236" started-at="2020-06-19T00:37:57 ICT" finished-at="2020-06-19T00:37:58 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test53()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test53" duration-ms="891" started-at="2020-06-19T00:37:58 ICT" description="SĐT đã tồn tại" finished-at="2020-06-19T00:37:59 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test53 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="259" started-at="2020-06-19T00:37:59 ICT" finished-at="2020-06-19T00:37:59 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test54()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test54" duration-ms="585" started-at="2020-06-19T00:37:59 ICT" description="SĐT đã tồn tại và bỏ trống họ tên" finished-at="2020-06-19T00:37:59 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test54 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="246" started-at="2020-06-19T00:37:59 ICT" finished-at="2020-06-19T00:38:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test55()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test55" duration-ms="479" started-at="2020-06-19T00:38:00 ICT" description="SĐT đã tồn tại và bỏ trống họ tên, email" finished-at="2020-06-19T00:38:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test55 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="219" started-at="2020-06-19T00:38:00 ICT" finished-at="2020-06-19T00:38:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test56()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test56" duration-ms="418" started-at="2020-06-19T00:38:00 ICT" description="SĐT đã tồn tại và bỏ trống họ tên, email, tên đăng nhập" finished-at="2020-06-19T00:38:01 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test56 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="247" started-at="2020-06-19T00:38:01 ICT" finished-at="2020-06-19T00:38:01 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test57()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test57" duration-ms="628" started-at="2020-06-19T00:38:01 ICT" description="Email đã tồn tại và bỏ trống họ tên" finished-at="2020-06-19T00:38:02 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test57 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="229" started-at="2020-06-19T00:38:02 ICT" finished-at="2020-06-19T00:38:02 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test58()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test58" duration-ms="542" started-at="2020-06-19T00:38:02 ICT" description="Email đã tồn tại và bỏ trống họ tên,SĐT" finished-at="2020-06-19T00:38:02 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test58 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="213" started-at="2020-06-19T00:38:02 ICT" finished-at="2020-06-19T00:38:03 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test59()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test59" duration-ms="446" started-at="2020-06-19T00:38:03 ICT" description="Email đã tồn tại và bỏ trống họ tên,SĐT,tên đăng nhập" finished-at="2020-06-19T00:38:03 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test59 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="204" started-at="2020-06-19T00:38:03 ICT" finished-at="2020-06-19T00:38:03 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test60()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test60" duration-ms="814" started-at="2020-06-19T00:38:03 ICT" description="SĐT và Email đã tồn tại" finished-at="2020-06-19T00:38:04 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test60 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="244" started-at="2020-06-19T00:38:04 ICT" finished-at="2020-06-19T00:38:04 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test61()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test61" duration-ms="715" started-at="2020-06-19T00:38:04 ICT" description="SĐT và Email đã tồn tại, bỏ trống họ tên" finished-at="2020-06-19T00:38:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test61 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="207" started-at="2020-06-19T00:38:05 ICT" finished-at="2020-06-19T00:38:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test62()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test62" duration-ms="681" started-at="2020-06-19T00:38:05 ICT" description="SĐT và Email đã tồn tại, bỏ trống tên đăng nhập" finished-at="2020-06-19T00:38:06 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test62 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="209" started-at="2020-06-19T00:38:06 ICT" finished-at="2020-06-19T00:38:06 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test63()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test63" duration-ms="708" started-at="2020-06-19T00:38:06 ICT" description="SĐT và Email đã tồn tại, bỏ trống tên đăng nhập và họ tên" finished-at="2020-06-19T00:38:07 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test63 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="184" started-at="2020-06-19T00:38:07 ICT" finished-at="2020-06-19T00:38:07 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test64()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test64" duration-ms="375" started-at="2020-06-19T00:38:07 ICT" description="SĐT và Email đã tồn tại, bỏ trống tên đăng nhập và họ tên và mật khẩu và xác nhận mật khẩu" finished-at="2020-06-19T00:38:07 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test64 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="168" started-at="2020-06-19T00:38:07 ICT" finished-at="2020-06-19T00:38:08 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test65()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test65" duration-ms="653" started-at="2020-06-19T00:38:08 ICT" description="SĐT và Email đã tồn tại, họ tên trống, xác nhận mật khẩu không khớp" finished-at="2020-06-19T00:38:08 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test65 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="211" started-at="2020-06-19T00:38:08 ICT" finished-at="2020-06-19T00:38:08 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test66()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test66" duration-ms="741" started-at="2020-06-19T00:38:08 ICT" description="SĐT và Email đã tồn tại, tên đăng nhập trống, xác nhận mật khẩu trống, mật khẩu trống" finished-at="2020-06-19T00:38:09 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test66 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="238" started-at="2020-06-19T00:38:09 ICT" finished-at="2020-06-19T00:38:09 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test67()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test67" duration-ms="575" started-at="2020-06-19T00:38:09 ICT" description="SĐT và Email đã tồn tại, họ tên trống, xác nhận mật khẩu không khớp" finished-at="2020-06-19T00:38:10 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test67 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="210" started-at="2020-06-19T00:38:10 ICT" finished-at="2020-06-19T00:38:10 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test68()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test68" duration-ms="548" started-at="2020-06-19T00:38:10 ICT" description="SĐT và Email đã tồn tại, xác nhận mật khẩu trống, mật khẩu trống" finished-at="2020-06-19T00:38:11 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test68 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="197" started-at="2020-06-19T00:38:11 ICT" finished-at="2020-06-19T00:38:11 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test69()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test69" duration-ms="679" started-at="2020-06-19T00:38:11 ICT" description="SĐT và Email đã tồn tại, xác nhận mật khẩu không khớp" finished-at="2020-06-19T00:38:12 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test69 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="before" is-config="true" duration-ms="241" started-at="2020-06-19T00:38:12 ICT" finished-at="2020-06-19T00:38:12 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test70()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="test70" duration-ms="646" started-at="2020-06-19T00:38:12 ICT" description="SĐT và Email đã tồn tại, mật khẩu 7 ký tự" finished-at="2020-06-19T00:38:13 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test70 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.vn.VNDirect.RegisterTest@35d176f7]" name="close" is-config="true" duration-ms="53" started-at="2020-06-19T00:38:13 ICT" finished-at="2020-06-19T00:38:13 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.vn.VNDirect.RegisterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
