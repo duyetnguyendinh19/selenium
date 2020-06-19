@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1090555077\testng-customsuite.xml</span>
+                    <span>C:\Users\SopenPC\AppData\Local\Temp\testng-eclipse-346997933\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">62 methods, 3 failed,   59 passed</span>
+                    <span class="method-stats">62 methods, 6 failed,   56 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
                     <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vn.VNDirect.RegisterTest" hash-for-method="test14">test14</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vn.VNDirect.RegisterTest" hash-for-method="test36">test36</a> <!-- method navigator-link -->
@@ -113,6 +118,16 @@
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vn.VNDirect.RegisterTest" hash-for-method="test52">test52</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vn.VNDirect.RegisterTest" hash-for-method="test65">test65</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vn.VNDirect.RegisterTest" hash-for-method="test69">test69</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -182,11 +197,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vn.VNDirect.RegisterTest" hash-for-method="test13">test13</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vn.VNDirect.RegisterTest" hash-for-method="test14">test14</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -391,11 +401,6 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vn.VNDirect.RegisterTest" hash-for-method="test65">test65</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vn.VNDirect.RegisterTest" hash-for-method="test66">test66</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -407,11 +412,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vn.VNDirect.RegisterTest" hash-for-method="test68">test68</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vn.VNDirect.RegisterTest" hash-for-method="test69">test69</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -439,6 +439,52 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="test14">
+                  </a> <!-- test14 -->
+                  <span class="method-name">test14</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Mật khẩu không trùng nhau] but found [Vui lòng không bỏ trống trường này]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.vn.VNDirect.RegisterTest.test14(RegisterTest.java:353)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Mật khẩu phải có tối thiểu 8 ký tự và tối đa 32 ký tự(quá 32), Xác nhận mật khẩu trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="test36">
                   </a> <!-- test36 -->
                   <span class="method-name">test36</span>
@@ -446,10 +492,10 @@
   (Session info: chrome=83.0.4103.106)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1NR1TP6&apos;, ip: &apos;192.168.1.141&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+System info: host: &apos;DESKTOP-U33STF4&apos;, ip: &apos;192.168.9.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58594}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2d1ba351cf03b352865e7c952bb63f90
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SopenPC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 73e3983a927ce714b0d2daffdb7c8bb2
 *** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[4]/div[2]/div/div/span}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -465,7 +511,7 @@ Session ID: 2d1ba351cf03b352865e7c952bb63f90
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.vn.VNDirect.RegisterTest.test36(RegisterTest.java:854)
+	at com.vn.VNDirect.RegisterTest.test36(RegisterTest.java:855)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -509,10 +555,10 @@ Session ID: 2d1ba351cf03b352865e7c952bb63f90
   (Session info: chrome=83.0.4103.106)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1NR1TP6&apos;, ip: &apos;192.168.1.141&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+System info: host: &apos;DESKTOP-U33STF4&apos;, ip: &apos;192.168.9.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58594}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2d1ba351cf03b352865e7c952bb63f90
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SopenPC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 73e3983a927ce714b0d2daffdb7c8bb2
 *** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[2]/div/div/div/span}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -528,7 +574,7 @@ Session ID: 2d1ba351cf03b352865e7c952bb63f90
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.vn.VNDirect.RegisterTest.test51(RegisterTest.java:1207)
+	at com.vn.VNDirect.RegisterTest.test51(RegisterTest.java:1208)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -572,10 +618,10 @@ Session ID: 2d1ba351cf03b352865e7c952bb63f90
   (Session info: chrome=83.0.4103.106)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1NR1TP6&apos;, ip: &apos;192.168.1.141&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+System info: host: &apos;DESKTOP-U33STF4&apos;, ip: &apos;192.168.9.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58594}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2d1ba351cf03b352865e7c952bb63f90
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SopenPC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 73e3983a927ce714b0d2daffdb7c8bb2
 *** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[2]/div/div/div/span}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -591,7 +637,7 @@ Session ID: 2d1ba351cf03b352865e7c952bb63f90
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.vn.VNDirect.RegisterTest.test52(RegisterTest.java:1229)
+	at com.vn.VNDirect.RegisterTest.test52(RegisterTest.java:1230)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -624,6 +670,132 @@ Session ID: 2d1ba351cf03b352865e7c952bb63f90
 </div> <!-- stack-trace -->
                   <em>
 (Email 51 ký tự)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test65">
+                  </a> <!-- test65 -->
+                  <span class="method-name">test65</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[2]/div/div/div/span&quot;}
+  (Session info: chrome=83.0.4103.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-U33STF4&apos;, ip: &apos;192.168.9.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SopenPC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 73e3983a927ce714b0d2daffdb7c8bb2
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[2]/div/div/div/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.vn.VNDirect.RegisterTest.test65(RegisterTest.java:1534)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(SĐT và Email đã tồn tại, họ tên trống, xác nhận mật khẩu không khớp)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test69">
+                  </a> <!-- test69 -->
+                  <span class="method-name">test69</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[2]/div/div/div/span&quot;}
+  (Session info: chrome=83.0.4103.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-U33STF4&apos;, ip: &apos;192.168.9.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SopenPC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 73e3983a927ce714b0d2daffdb7c8bb2
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[2]/div/div/div/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.vn.VNDirect.RegisterTest.test69(RegisterTest.java:1642)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(SĐT và Email đã tồn tại, xác nhận mật khẩu không khớp)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -740,15 +912,6 @@ Session ID: 2d1ba351cf03b352865e7c952bb63f90
                   <span class="method-name">test13</span>
                   <em>
 (Mật khẩu không trùng nhau)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test14">
-                  </a> <!-- test14 -->
-                  <span class="method-name">test14</span>
-                  <em>
-(Mật khẩu phải có tối thiểu 8 ký tự và tối đa 32 ký tự(quá 32), Xác nhận mật khẩu trống)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -1113,15 +1276,6 @@ Session ID: 2d1ba351cf03b352865e7c952bb63f90
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test65">
-                  </a> <!-- test65 -->
-                  <span class="method-name">test65</span>
-                  <em>
-(SĐT và Email đã tồn tại, họ tên trống, xác nhận mật khẩu không khớp)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="test66">
                   </a> <!-- test66 -->
                   <span class="method-name">test66</span>
@@ -1149,15 +1303,6 @@ Session ID: 2d1ba351cf03b352865e7c952bb63f90
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test69">
-                  </a> <!-- test69 -->
-                  <span class="method-name">test69</span>
-                  <em>
-(SĐT và Email đã tồn tại, xác nhận mật khẩu không khớp)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="test70">
                   </a> <!-- test70 -->
                   <span class="method-name">test70</span>
@@ -1170,7 +1315,7 @@ Session ID: 2d1ba351cf03b352865e7c952bb63f90
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1090555077\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\SopenPC\AppData\Local\Temp\testng-eclipse-346997933\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -1221,258 +1366,258 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(62);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test50')
+data.setCell(0, 1, 'test15')
 data.setCell(0, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(0, 3, 1544);
+data.setCell(0, 3, 1067);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test14')
 data.setCell(1, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(1, 3, 1040);
+data.setCell(1, 3, 900);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test15')
+data.setCell(2, 1, 'test02')
 data.setCell(2, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(2, 3, 1022);
+data.setCell(2, 3, 778);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test17')
+data.setCell(3, 1, 'test52')
 data.setCell(3, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(3, 3, 946);
+data.setCell(3, 3, 745);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'test53')
+data.setCell(4, 1, 'test17')
 data.setCell(4, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(4, 3, 891);
+data.setCell(4, 3, 706);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'test38')
+data.setCell(5, 1, 'test48')
 data.setCell(5, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(5, 3, 852);
+data.setCell(5, 3, 696);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'test16')
+data.setCell(6, 1, 'test18')
 data.setCell(6, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(6, 3, 851);
+data.setCell(6, 3, 695);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'test02')
+data.setCell(7, 1, 'test60')
 data.setCell(7, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(7, 3, 829);
+data.setCell(7, 3, 693);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'test60')
+data.setCell(8, 1, 'test53')
 data.setCell(8, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(8, 3, 814);
+data.setCell(8, 3, 691);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'test52')
+data.setCell(9, 1, 'test13')
 data.setCell(9, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(9, 3, 809);
+data.setCell(9, 3, 677);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'test18')
+data.setCell(10, 1, 'test16')
 data.setCell(10, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(10, 3, 753);
+data.setCell(10, 3, 669);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'test51')
+data.setCell(11, 1, 'test32')
 data.setCell(11, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(11, 3, 752);
+data.setCell(11, 3, 651);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'test48')
+data.setCell(12, 1, 'test69')
 data.setCell(12, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(12, 3, 749);
+data.setCell(12, 3, 638);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'test49')
+data.setCell(13, 1, 'test70')
 data.setCell(13, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(13, 3, 748);
+data.setCell(13, 3, 628);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'test32')
+data.setCell(14, 1, 'test38')
 data.setCell(14, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(14, 3, 743);
+data.setCell(14, 3, 626);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'test46')
+data.setCell(15, 1, 'test12')
 data.setCell(15, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(15, 3, 743);
+data.setCell(15, 3, 626);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'test66')
+data.setCell(16, 1, 'test50')
 data.setCell(16, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(16, 3, 741);
+data.setCell(16, 3, 605);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'test61')
+data.setCell(17, 1, 'test54')
 data.setCell(17, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(17, 3, 715);
+data.setCell(17, 3, 602);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'test13')
+data.setCell(18, 1, 'test47')
 data.setCell(18, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(18, 3, 710);
+data.setCell(18, 3, 602);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'test03')
+data.setCell(19, 1, 'test46')
 data.setCell(19, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(19, 3, 710);
+data.setCell(19, 3, 595);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'test63')
+data.setCell(20, 1, 'test62')
 data.setCell(20, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(20, 3, 708);
+data.setCell(20, 3, 594);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'test62')
+data.setCell(21, 1, 'test49')
 data.setCell(21, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(21, 3, 681);
+data.setCell(21, 3, 593);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'test69')
+data.setCell(22, 1, 'test61')
 data.setCell(22, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(22, 3, 679);
+data.setCell(22, 3, 592);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'test47')
+data.setCell(23, 1, 'test20')
 data.setCell(23, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(23, 3, 664);
+data.setCell(23, 3, 587);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'test12')
+data.setCell(24, 1, 'test67')
 data.setCell(24, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(24, 3, 658);
+data.setCell(24, 3, 572);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'test65')
+data.setCell(25, 1, 'test03')
 data.setCell(25, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(25, 3, 653);
+data.setCell(25, 3, 562);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'test70')
+data.setCell(26, 1, 'test51')
 data.setCell(26, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(26, 3, 646);
+data.setCell(26, 3, 556);
 data.setCell(27, 0, 27)
 data.setCell(27, 1, 'test39')
 data.setCell(27, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(27, 3, 637);
+data.setCell(27, 3, 548);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'test20')
+data.setCell(28, 1, 'test57')
 data.setCell(28, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(28, 3, 636);
+data.setCell(28, 3, 541);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'test57')
+data.setCell(29, 1, 'test33')
 data.setCell(29, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(29, 3, 628);
+data.setCell(29, 3, 540);
 data.setCell(30, 0, 30)
-data.setCell(30, 1, 'test33')
+data.setCell(30, 1, 'test11')
 data.setCell(30, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(30, 3, 612);
+data.setCell(30, 3, 517);
 data.setCell(31, 0, 31)
-data.setCell(31, 1, 'test54')
+data.setCell(31, 1, 'test68')
 data.setCell(31, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(31, 3, 585);
+data.setCell(31, 3, 513);
 data.setCell(32, 0, 32)
-data.setCell(32, 1, 'test11')
+data.setCell(32, 1, 'test63')
 data.setCell(32, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(32, 3, 579);
+data.setCell(32, 3, 508);
 data.setCell(33, 0, 33)
-data.setCell(33, 1, 'test67')
+data.setCell(33, 1, 'test22')
 data.setCell(33, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(33, 3, 575);
+data.setCell(33, 3, 503);
 data.setCell(34, 0, 34)
-data.setCell(34, 1, 'test22')
+data.setCell(34, 1, 'test65')
 data.setCell(34, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(34, 3, 558);
+data.setCell(34, 3, 502);
 data.setCell(35, 0, 35)
-data.setCell(35, 1, 'test68')
+data.setCell(35, 1, 'test55')
 data.setCell(35, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(35, 3, 548);
+data.setCell(35, 3, 499);
 data.setCell(36, 0, 36)
-data.setCell(36, 1, 'test58')
+data.setCell(36, 1, 'test40')
 data.setCell(36, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(36, 3, 542);
+data.setCell(36, 3, 491);
 data.setCell(37, 0, 37)
-data.setCell(37, 1, 'test40')
+data.setCell(37, 1, 'test58')
 data.setCell(37, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(37, 3, 523);
+data.setCell(37, 3, 484);
 data.setCell(38, 0, 38)
 data.setCell(38, 1, 'test34')
 data.setCell(38, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(38, 3, 519);
+data.setCell(38, 3, 469);
 data.setCell(39, 0, 39)
-data.setCell(39, 1, 'test45')
+data.setCell(39, 1, 'test66')
 data.setCell(39, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(39, 3, 515);
+data.setCell(39, 3, 452);
 data.setCell(40, 0, 40)
-data.setCell(40, 1, 'test04')
+data.setCell(40, 1, 'test45')
 data.setCell(40, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(40, 3, 500);
+data.setCell(40, 3, 442);
 data.setCell(41, 0, 41)
-data.setCell(41, 1, 'test35')
+data.setCell(41, 1, 'test04')
 data.setCell(41, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(41, 3, 483);
+data.setCell(41, 3, 422);
 data.setCell(42, 0, 42)
-data.setCell(42, 1, 'test55')
+data.setCell(42, 1, 'test10')
 data.setCell(42, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(42, 3, 479);
+data.setCell(42, 3, 411);
 data.setCell(43, 0, 43)
-data.setCell(43, 1, 'test10')
+data.setCell(43, 1, 'test59')
 data.setCell(43, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(43, 3, 465);
+data.setCell(43, 3, 403);
 data.setCell(44, 0, 44)
-data.setCell(44, 1, 'test24')
+data.setCell(44, 1, 'test08')
 data.setCell(44, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(44, 3, 454);
+data.setCell(44, 3, 402);
 data.setCell(45, 0, 45)
-data.setCell(45, 1, 'test59')
+data.setCell(45, 1, 'test35')
 data.setCell(45, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(45, 3, 446);
+data.setCell(45, 3, 389);
 data.setCell(46, 0, 46)
-data.setCell(46, 1, 'test31')
+data.setCell(46, 1, 'test24')
 data.setCell(46, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(46, 3, 439);
+data.setCell(46, 3, 384);
 data.setCell(47, 0, 47)
-data.setCell(47, 1, 'test56')
+data.setCell(47, 1, 'test37')
 data.setCell(47, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(47, 3, 418);
+data.setCell(47, 3, 378);
 data.setCell(48, 0, 48)
-data.setCell(48, 1, 'test41')
+data.setCell(48, 1, 'test56')
 data.setCell(48, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(48, 3, 413);
+data.setCell(48, 3, 376);
 data.setCell(49, 0, 49)
-data.setCell(49, 1, 'test37')
+data.setCell(49, 1, 'test41')
 data.setCell(49, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(49, 3, 380);
+data.setCell(49, 3, 372);
 data.setCell(50, 0, 50)
 data.setCell(50, 1, 'test64')
 data.setCell(50, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(50, 3, 375);
+data.setCell(50, 3, 357);
 data.setCell(51, 0, 51)
-data.setCell(51, 1, 'test44')
+data.setCell(51, 1, 'test31')
 data.setCell(51, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(51, 3, 367);
+data.setCell(51, 3, 344);
 data.setCell(52, 0, 52)
-data.setCell(52, 1, 'test09')
+data.setCell(52, 1, 'test44')
 data.setCell(52, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(52, 3, 344);
+data.setCell(52, 3, 341);
 data.setCell(53, 0, 53)
-data.setCell(53, 1, 'test36')
+data.setCell(53, 1, 'test09')
 data.setCell(53, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(53, 3, 344);
+data.setCell(53, 3, 334);
 data.setCell(54, 0, 54)
-data.setCell(54, 1, 'test05')
+data.setCell(54, 1, 'test36')
 data.setCell(54, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(54, 3, 330);
+data.setCell(54, 3, 326);
 data.setCell(55, 0, 55)
-data.setCell(55, 1, 'test42')
+data.setCell(55, 1, 'test05')
 data.setCell(55, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(55, 3, 297);
+data.setCell(55, 3, 319);
 data.setCell(56, 0, 56)
 data.setCell(56, 1, 'test27')
 data.setCell(56, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(56, 3, 292);
+data.setCell(56, 3, 288);
 data.setCell(57, 0, 57)
-data.setCell(57, 1, 'test08')
+data.setCell(57, 1, 'test42')
 data.setCell(57, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(57, 3, 279);
+data.setCell(57, 3, 246);
 data.setCell(58, 0, 58)
-data.setCell(58, 1, 'test29')
+data.setCell(58, 1, 'test06')
 data.setCell(58, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(58, 3, 224);
+data.setCell(58, 3, 225);
 data.setCell(59, 0, 59)
-data.setCell(59, 1, 'test06')
+data.setCell(59, 1, 'test29')
 data.setCell(59, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(59, 3, 200);
+data.setCell(59, 3, 217);
 data.setCell(60, 0, 60)
 data.setCell(60, 1, 'test43')
 data.setCell(60, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(60, 3, 180);
+data.setCell(60, 3, 186);
 data.setCell(61, 0, 61)
 data.setCell(61, 1, 'test07')
 data.setCell(61, 2, 'com.vn.VNDirect.RegisterTest')
-data.setCell(61, 3, 152);
+data.setCell(61, 3, 158);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -1505,115 +1650,117 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">4710 ms</span>
+                <span class="method-start">5539 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test02</span>
-                <span class="method-start">5006 ms</span>
+                <span class="method-start">5828 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">5839 ms</span>
+                <span class="method-start">6611 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test03</span>
-                <span class="method-start">6160 ms</span>
+                <span class="method-start">6859 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">6871 ms</span>
+                <span class="method-start">7422 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test04</span>
-                <span class="method-start">7222 ms</span>
+                <span class="method-start">7653 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">7724 ms</span>
+                <span class="method-start">8077 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test05</span>
-                <span class="method-start">7951 ms</span>
+                <span class="method-start">8287 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">8282 ms</span>
+                <span class="method-start">8607 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test06</span>
-                <span class="method-start">8471 ms</span>
+                <span class="method-start">8777 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">8672 ms</span>
+                <span class="method-start">9003 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test07</span>
-                <span class="method-start">8836 ms</span>
+                <span class="method-start">9201 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">8989 ms</span>
+                <span class="method-start">9360 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test08</span>
-                <span class="method-start">9142 ms</span>
+                <span class="method-start">9522 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">9422 ms</span>
+                <span class="method-start">9926 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test09</span>
-                <span class="method-start">9574 ms</span>
+                <span class="method-start">10093 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">9919 ms</span>
+                <span class="method-start">10429 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test10</span>
-                <span class="method-start">10099 ms</span>
+                <span class="method-start">10599 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">10565 ms</span>
+                <span class="method-start">11011 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test11</span>
-                <span class="method-start">10769 ms</span>
+                <span class="method-start">11210 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">11349 ms</span>
+                <span class="method-start">11728 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test12</span>
-                <span class="method-start">11611 ms</span>
+                <span class="method-start">11938 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">12270 ms</span>
+                <span class="method-start">12565 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test13</span>
-                <span class="method-start">12605 ms</span>
+                <span class="method-start">12853 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">13316 ms</span>
+                <span class="method-start">13531 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test14</span>
-                <span class="method-start">13595 ms</span>
+                <span class="method-start">13711 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">14636 ms</span>
+                <span class="method-start">14613 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test15</span>
-                <span class="method-start">14875 ms</span>
+                <span class="method-start">14831 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
@@ -1621,393 +1768,397 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test16</span>
-                <span class="method-start">16147 ms</span>
+                <span class="method-start">16144 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">16999 ms</span>
+                <span class="method-start">16814 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test17</span>
-                <span class="method-start">17593 ms</span>
+                <span class="method-start">17055 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">18540 ms</span>
+                <span class="method-start">17762 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test18</span>
-                <span class="method-start">18794 ms</span>
+                <span class="method-start">18002 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">19549 ms</span>
+                <span class="method-start">18698 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test20</span>
-                <span class="method-start">19808 ms</span>
+                <span class="method-start">18910 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">20445 ms</span>
+                <span class="method-start">19498 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test22</span>
-                <span class="method-start">20705 ms</span>
+                <span class="method-start">19726 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">21264 ms</span>
+                <span class="method-start">20230 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test24</span>
-                <span class="method-start">21478 ms</span>
+                <span class="method-start">20428 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">21932 ms</span>
+                <span class="method-start">20813 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test27</span>
-                <span class="method-start">22113 ms</span>
+                <span class="method-start">20999 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">22406 ms</span>
+                <span class="method-start">21288 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test29</span>
-                <span class="method-start">22576 ms</span>
+                <span class="method-start">21442 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">22801 ms</span>
+                <span class="method-start">21659 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test31</span>
-                <span class="method-start">22965 ms</span>
+                <span class="method-start">21810 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">23404 ms</span>
+                <span class="method-start">22155 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test32</span>
-                <span class="method-start">23595 ms</span>
+                <span class="method-start">22328 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">24338 ms</span>
+                <span class="method-start">22980 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test33</span>
-                <span class="method-start">24612 ms</span>
+                <span class="method-start">23203 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">25225 ms</span>
+                <span class="method-start">23744 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test34</span>
-                <span class="method-start">25438 ms</span>
+                <span class="method-start">23939 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">25958 ms</span>
+                <span class="method-start">24409 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test35</span>
-                <span class="method-start">26162 ms</span>
+                <span class="method-start">24604 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">26646 ms</span>
+                <span class="method-start">24994 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test36</span>
-                <span class="method-start">26816 ms</span>
+                <span class="method-start">25169 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">27165 ms</span>
+                <span class="method-start">25496 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test37</span>
-                <span class="method-start">27323 ms</span>
+                <span class="method-start">25655 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">27704 ms</span>
+                <span class="method-start">26034 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test38</span>
-                <span class="method-start">27898 ms</span>
+                <span class="method-start">26196 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">28751 ms</span>
+                <span class="method-start">26822 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test39</span>
-                <span class="method-start">29009 ms</span>
+                <span class="method-start">27045 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">29647 ms</span>
+                <span class="method-start">27594 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test40</span>
-                <span class="method-start">29909 ms</span>
+                <span class="method-start">27813 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">30433 ms</span>
+                <span class="method-start">28305 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test41</span>
-                <span class="method-start">30639 ms</span>
+                <span class="method-start">28492 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">31054 ms</span>
+                <span class="method-start">28865 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test42</span>
-                <span class="method-start">31227 ms</span>
+                <span class="method-start">29041 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">31526 ms</span>
+                <span class="method-start">29288 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test43</span>
-                <span class="method-start">31692 ms</span>
+                <span class="method-start">29446 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">31873 ms</span>
+                <span class="method-start">29633 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test44</span>
-                <span class="method-start">32015 ms</span>
+                <span class="method-start">29777 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">32382 ms</span>
+                <span class="method-start">30119 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test45</span>
-                <span class="method-start">32565 ms</span>
+                <span class="method-start">30284 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">33080 ms</span>
+                <span class="method-start">30727 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test46</span>
-                <span class="method-start">33311 ms</span>
+                <span class="method-start">30924 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">34055 ms</span>
+                <span class="method-start">31520 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test47</span>
-                <span class="method-start">34379 ms</span>
+                <span class="method-start">31741 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">35043 ms</span>
+                <span class="method-start">32344 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test48</span>
-                <span class="method-start">35272 ms</span>
+                <span class="method-start">32558 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">36022 ms</span>
+                <span class="method-start">33255 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test49</span>
-                <span class="method-start">36254 ms</span>
+                <span class="method-start">33465 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">37003 ms</span>
+                <span class="method-start">34059 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test50</span>
-                <span class="method-start">37231 ms</span>
+                <span class="method-start">34261 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">38776 ms</span>
+                <span class="method-start">34867 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test51</span>
-                <span class="method-start">39069 ms</span>
+                <span class="method-start">35069 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">39822 ms</span>
+                <span class="method-start">35626 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test52</span>
-                <span class="method-start">40059 ms</span>
+                <span class="method-start">35864 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">40869 ms</span>
+                <span class="method-start">36614 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test53</span>
-                <span class="method-start">41105 ms</span>
+                <span class="method-start">36837 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">41996 ms</span>
+                <span class="method-start">37529 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test54</span>
-                <span class="method-start">42255 ms</span>
+                <span class="method-start">37751 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">42841 ms</span>
+                <span class="method-start">38354 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test55</span>
-                <span class="method-start">43087 ms</span>
+                <span class="method-start">38563 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">43567 ms</span>
+                <span class="method-start">39063 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test56</span>
-                <span class="method-start">43787 ms</span>
+                <span class="method-start">39252 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">44206 ms</span>
+                <span class="method-start">39628 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test57</span>
-                <span class="method-start">44453 ms</span>
+                <span class="method-start">39802 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">45083 ms</span>
+                <span class="method-start">40344 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test58</span>
-                <span class="method-start">45312 ms</span>
+                <span class="method-start">40549 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">45855 ms</span>
+                <span class="method-start">41034 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test59</span>
-                <span class="method-start">46068 ms</span>
+                <span class="method-start">41224 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">46515 ms</span>
+                <span class="method-start">41628 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test60</span>
-                <span class="method-start">46719 ms</span>
+                <span class="method-start">41806 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">47534 ms</span>
+                <span class="method-start">42500 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test61</span>
-                <span class="method-start">47778 ms</span>
+                <span class="method-start">42727 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">48493 ms</span>
+                <span class="method-start">43320 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test62</span>
-                <span class="method-start">48700 ms</span>
+                <span class="method-start">43524 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">49381 ms</span>
+                <span class="method-start">44119 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test63</span>
-                <span class="method-start">49590 ms</span>
+                <span class="method-start">44326 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">50299 ms</span>
+                <span class="method-start">44835 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test64</span>
-                <span class="method-start">50483 ms</span>
+                <span class="method-start">45025 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">50859 ms</span>
+                <span class="method-start">45383 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test65</span>
-                <span class="method-start">51027 ms</span>
+                <span class="method-start">45537 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">51681 ms</span>
+                <span class="method-start">46039 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test66</span>
-                <span class="method-start">51893 ms</span>
+                <span class="method-start">46241 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">52635 ms</span>
+                <span class="method-start">46693 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test67</span>
-                <span class="method-start">52873 ms</span>
+                <span class="method-start">46871 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">53449 ms</span>
+                <span class="method-start">47444 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test68</span>
-                <span class="method-start">53659 ms</span>
+                <span class="method-start">47665 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">54208 ms</span>
+                <span class="method-start">48179 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test69</span>
-                <span class="method-start">54405 ms</span>
+                <span class="method-start">48364 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">55085 ms</span>
+                <span class="method-start">49003 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test70</span>
-                <span class="method-start">55326 ms</span>
+                <span class="method-start">49221 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">55976 ms</span>
+                <span class="method-start">49853 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

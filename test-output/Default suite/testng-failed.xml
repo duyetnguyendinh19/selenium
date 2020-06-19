@@ -8,7 +8,10 @@
           <include name="test52"/>
           <include name="setUp"/>
           <include name="close"/>
+          <include name="test14"/>
           <include name="test36"/>
+          <include name="test69"/>
+          <include name="test65"/>
           <include name="test51"/>
           <include name="before"/>
         </methods>

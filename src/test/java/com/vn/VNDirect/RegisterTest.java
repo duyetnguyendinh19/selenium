@@ -19,7 +19,8 @@ public class RegisterTest {
 	public static WebDriver driver;
 	public static String url = "https://accounts.vndirect.com.vn/";
 	public static final String webDriver = "webdriver.chrome.driver";
-	public static final String pathDriver = "E:\\Tool\\chromedriver.exe";
+	
+	public static final String pathDriver = System.getProperty("user.dir")+"\\Tool\\chromedriver.exe";
 	public static WebElement webElement;
 	public static List<WebElement> lstWebElement;
 	public String xPathErrorFullName = "/html/body/div[1]/div/div[2]/div/div/form/div[2]/div/div[1]/div[1]/div/div/span";
